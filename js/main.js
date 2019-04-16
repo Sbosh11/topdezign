@@ -1,4 +1,17 @@
 
+   
+   //preloader
+   function animateDiv(){
+    var popup = document.getElementById("popup");
+    popup.style.top = "-100vh";
+  setTimeout(() => {
+    window.location.replace('\preload.html')
+  }, 1000);
+}
+
+
+
+// toggle mobile menu
 function myFunction() {
     var x = document.getElementById("myTopnav");
     if (x.className === "nav") {

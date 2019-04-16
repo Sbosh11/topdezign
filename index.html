@@ -1,57 +1,62 @@
-
 <!doctype html>
 
 <html>
-	<head>
-		<title>Page Title</title>
-		<meta charset="UTF-8">
-		<meta name="viewport" content="initial-scale=1.0">
-	</head>
-    <script>
-            function animateDiv(){
-            var popup = document.getElementById("popup");
-            popup.style.top = "-100vh";
-          setTimeout(() => {
-            window.location.replace('\preload.html')
-          }, 1000);
-        }
+
+<head>
+  <title>Preloader</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="initial-scale=1.0">
+</head>
+<script>
+  function animateDiv() {
+    var popup = document.getElementById("popup");
+    popup.style.top = "-100vh";
+    setTimeout(() => {
+      window.location.replace('\main.html')
+    }, 1000);
+  }
+</script>
+
+<body class="pre-logo" onload="animateDiv()">
+  <div class="bg">
+    <div id='popup' class="popup-container"></div>
+  </div>
+
+  <style>
+    body {
+      background: rgb(36, 34, 34);
+    }
+
+    .bg {
+      width: 70%;
+      height: 50vh;
+      margin: 100px;
+      background: rgb(36, 34, 34) url("img/LOGOTD.png") no-repeat center center;
+      background-size: contain;
+    }
+
+    .pre-logo {
+      height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
 
 
-        </script>
+    .popup-container {
+      width: 100%;
+      height: 100%;
+      background-color: black;
+      border: 2px solid black;
+      position: absolute;
+      left: 0%;
+      top: 100%;
+      bottom: 0;
+      transition: 1s;
 
-        <body class="pre-logo" onload="animateDiv()">
-            <div id='popup' class="popup-container"></div>
-         
+    }
+  </style>
 
-        <style>
+</body>
 
-body {
-    background: rgb(36, 34, 34) url("img/LOGO TD.png") no-repeat center center  ;
-}
-
-.pre-logo  {
-    height: 100vh; 
-    display: flex; 
-    align-items: center; 
-    justify-content: center;
-}
-
-
-      .popup-container{
-	width:100%;
-	height:100%;
-	background-color:black;
-	border: 2px solid black;
-	position: absolute;
-	left:0%;
-  top:100%;
-  bottom:0;
-	transition: 1s ;
-  
-}
-
-
-    </style>
-   
-	</body>
 </html>
