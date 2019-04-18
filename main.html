@@ -14,56 +14,56 @@
 </head>
 
 <body>
-
-  <header>
-    <div class="menu-desktop">
-      <ul class="nav" id="myTopnav">
-        <li><a href="#what">What I do</a></li>
-        <li><a href="#portfolio">Portfolio</a></li>
-        <li><a href="#about">About</a></li>
-        <li><a href="#contacts">Contacts</a></li>
-      </ul>
-    </div>
-
-    <div class="menu-mobile d-hide" href="javascript:void(0);" class="icon" onclick="myFunction()">
-      <div class="icon-menu"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
-          <defs>
-            <style>
-              .cls-1 {
-                fill: rgba(0, 0, 0, 0.86);
-              }
-
-              .cls-2 {
-                fill: none;
-              }
-            </style>
-          </defs>
-          <g>
-            <rect class="cls-1 menu-bar-1" width="18" height="2" transform="translate(3 6)"></rect>
-            <rect class="cls-1 menu-bar-2" width="18" height="2" transform="translate(3 11)"></rect>
-            <rect class="cls-1 menu-bar-3" width="12" height="2" transform="translate(3 16)"></rect>
-            <rect class="cls-2" width="24" height="24"></rect>
-          </g>
-        </svg>
-
-      </div>
-      <div class="site-menu-overlay hidden"></div>
-      <div class="icon-menu-close hidden"><svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px"
-          viewBox="0 0 24 24" fill="#000000">
-          <path
-            d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z">
-          </path>
-          <path d="M0 0h24v24H0z" fill="none"></path>
-        </svg>
-
-      </div>
-
-  </header>
-
-  <a href="#" class="scroll-to-top" onclick="topFunction()" id="myBtn"><i class="fa fa-angle-up"></i></a>
-
-
   <container>
+    <header>
+      <div class="menu-desktop">
+        <ul class="nav" id="myTopnav">
+          <li><a href="#what">What I do</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#contacts">Contacts</a></li>
+        </ul>
+      </div>
+
+      <div class="menu-mobile d-hide" href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <div class="icon-menu"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+            <defs>
+              <style>
+                .cls-1 {
+                  fill: rgba(0, 0, 0, 0.86);
+                }
+
+                .cls-2 {
+                  fill: none;
+                }
+              </style>
+            </defs>
+            <g>
+              <rect class="cls-1 menu-bar-1" width="18" height="2" transform="translate(3 6)"></rect>
+              <rect class="cls-1 menu-bar-2" width="18" height="2" transform="translate(3 11)"></rect>
+              <rect class="cls-1 menu-bar-3" width="12" height="2" transform="translate(3 16)"></rect>
+              <rect class="cls-2" width="24" height="24"></rect>
+            </g>
+          </svg>
+
+        </div>
+        <div class="site-menu-overlay hidden"></div>
+        <div class="icon-menu-close hidden"><svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px"
+            viewBox="0 0 24 24" fill="#000000">
+            <path
+              d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z">
+            </path>
+            <path d="M0 0h24v24H0z" fill="none"></path>
+          </svg>
+
+        </div>
+
+    </header>
+
+    <a href="#" class="scroll-to-top" onclick="topFunction()" id="myBtn"><i class="fa fa-angle-up"></i></a>
+
+
+
     <section class="intro">
       <div class="hero-left">
         <div class="title">
@@ -87,12 +87,13 @@
 
 
       <div class="about hero-right">
-        <h1>
-          <span>
-            Designing and developing <br>
-            the future, together.
-          </span>
+
+        <h1 class="title">
+          <span>Designing and developing<br></span>
+          <span>the future</span>
+          <span>together.</span>
         </h1>
+
         <p>
           <span class="intro-space">
             I believe simplicity fused with vivid appearance form modern digital experiences.
@@ -103,86 +104,103 @@
       </div>
     </section>
 
-    <div class="what" id="what">
-      <div class="what-left">
+    <section>
 
-        <h1>WHAT <br>I <br>DO</h1>
+      <div class="what" id="what">
+        <div class="what-left">
+
+          <h1>WHAT <br>I <br>DO</h1>
+        </div>
+        <div class="services what-right">
+          <div class="box">
+
+            <h1> BE BRAVE</h1>
+            <p>Looking for a bold new brand or a super-slick and highly functional website ?
+              Together we’ll make it happen.</p>
+          </div>
+
+
+          <div class="box">
+
+            <h3> Website Design</h3>
+
+          </div>
+
+
+          <div class="box">
+            <h3>Website Development</h3>
+
+          </div>
+          <div class="box">
+            <h3> Wordpress Ecommerce</h3>
+
+          </div>
+          <div class="box">
+            <h3> Logo and Branding</h3>
+
+          </div>
+          <div class="box">
+            <h3> Progressive Web Apps</h3>
+
+          </div>
+        </div>
       </div>
-      <div class="services what-right">
-        <div class="box">
-
-          <h1> BE BRAVE</h1>
-          <p>Looking for a bold new brand or a super-slick and highly functional website ?
-            Together we’ll make it happen.</p>
-        </div>
-
-
-        <div class="box">
-
-          <h3> Website Design</h3>
-
-        </div>
-
-
-        <div class="box">
-          <h3>Website Development</h3>
-
-        </div>
-        <div class="box">
-          <h3> Wordpress Ecommerce</h3>
-
-        </div>
-        <div class="box">
-          <h3> Logo and Branding</h3>
-
-        </div>
-        <div class="box">
-          <h3> Progressive Web Apps</h3>
-
-        </div>
-      </div>
-    </div>
-
-
-    <div class="heading" id="portfolio">
-      <h1>PORTFOLIO</h1>
-    </div>
-
-    <div class="row">
-
-
-      <a class="column" href="https://corporategifts.co.za" target="_blank">
-        <img src="portfolio/corporategifts.co.za.png">
-      </a>
-
-      <a class="column" href="http://thubela.com/projectcontrol.php" target="_blank">
-        <img src="portfolio/thubela.png">
-      </a>
-      <a class="column" href=" http://topcareclinic.co.za/" target="_blank">
-
-        <img src="portfolio/topcare.png">
-      </a>
-      <a class="column" href="portfolio/zanoludwe1.png" target="_blank">
-        <img src="portfolio/zanoludwemain.png">
-      </a>
-
-      <a class="column" href="portfolio/Styne.jpg" target="_blank">
-        <img src="portfolio/Styne.jpg">
-      </a>
-      <a class="column" href="portfolio/tora1.png" target="_blank">
-        <img src="portfolio/tora1 (2).png">
-      </a>
-      <a class="column" href="portfolio/SST.jpg" target="_blank">
-        <img src="portfolio/SST.jpg">
-      </a>
-
-      <a class="column" href="portfolio/maffession.png" target="_blank">
-        <img src="portfolio/maffession.png">
-      </a>
-
-    </div>
+    </section>
 
     <section>
+      <div class="portfolio" id="portfolio">
+
+        <div class="portfolio-left">
+          <h1>PORT<br>FO<br>LIO</h1>
+
+        </div>
+        <div class="portfolio-right">
+          <div class="column">
+            <a href="https://corporategifts.co.za" target="_blank">
+              <img src="portfolio/corporategifts.co.za_product-category_brands.png">
+            </a>
+          </div>
+          <div class="column">
+            <a href="http://thubela.com/projectcontrol.php" target="_blank">
+              <img src="portfolio/thubela.com_values.png">
+            </a>
+          </div>
+          <div class="column">
+            <a href=" http://topcareclinic.co.za/" target="_blank">
+              <img src="portfolio/topcare.png">
+            </a>
+          </div>
+          <div class="column">
+            <a href="portfolio/zanoludwe1.png" target="_blank">
+              <img src="portfolio/zanoludwemain.png">
+            </a>
+          </div>
+          <div class="column">
+            <a href="portfolio/Styne.jpg" target="_blank">
+              <img src="portfolio/Styne.jpg">
+            </a>
+          </div>
+          <div class="column">
+            <a href="portfolio/tora1.png" target="_blank">
+              <img src="portfolio/tora_packages.png">
+            </a>
+          </div>
+          <div class="column">
+            <a href="portfolio/SST.jpg" target="_blank">
+              <img src="portfolio/SST.jpg">
+            </a>
+          </div>
+          <div class="column">
+            <a href="portfolio/maffession.png" target="_blank">
+              <img src="portfolio/maffession (2).png">
+            </a>
+          </div>
+        </div>
+      </div>
+
+    </section>
+
+    <section class="processes">
 
       <div class="heading work">
         <h1>WORK PROCESS</h1>
@@ -216,10 +234,10 @@
 
     </section>
     <section>
-      <div class="heading" id="about">
+      <!----<div class="heading" id="about">
         <h1>About Me</h1>
-      </div>
-      <div class="me">
+      </div>-->
+      <div class="me" id="about">
         <div class="div1">
           <h3>ABOUT ME</h3>
           <p><span class="sub">Then</span> <br>I worked as Systems Support Analyst for several years supporting
