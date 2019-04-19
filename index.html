@@ -6,13 +6,46 @@
   <title>Preloader</title>
   <meta charset="UTF-8">
   <meta name="viewport" content="initial-scale=1.0">
-  <link rel="stylesheet" type="text/css" href="css/preloader.css">
 </head>
 
 <body class="pre-logo" onload="animateDiv()">
   <div class="bg">
     <div id='popup' class="popup-container"></div>
   </div>
+  <style>
+    body {
+      background: rgb(36, 34, 34);
+    }
+
+    .bg {
+      width: 70%;
+      height: 50vh;
+      margin: 100px;
+      background: rgb(36, 34, 34) url("img/LOGOTD.png") no-repeat center center;
+      background-size: contain;
+    }
+
+    .pre-logo {
+      height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+
+    .popup-container {
+      width: 100%;
+      height: 100%;
+      background-color: black;
+      border: 2px solid black;
+      position: absolute;
+      left: 0%;
+      top: 100%;
+      bottom: 0;
+      transition: 1s;
+
+    }
+  </style>
   <script type="text/javascript" src="js/preloader.js"></script>
 </body>
 
