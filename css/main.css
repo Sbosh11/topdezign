@@ -697,10 +697,15 @@ section {
   flex: 1;
 }
 
+.contacts h3 {
+  text-transform: uppercase;
+}
+
 .contact h3,
 .details {
   margin: 20px;
   padding: 0;
+
 }
 
 .details {
