@@ -1289,6 +1289,14 @@ section {
   margin-bottom: 50px;
 }
 
+#about h3 {
+  margin: 0;
+}
+
+#about {
+  line-height: 1.5em;
+}
+
 .heading {
   display: -webkit-box;
   display: -ms-flexbox;
