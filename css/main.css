@@ -394,6 +394,7 @@ section {
 .about h1 {
   font-size: 3.5em;
   margin-bottom: 50px;
+  margin-top: 0;
 }
 
 .heading {
