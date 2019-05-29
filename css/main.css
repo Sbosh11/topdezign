@@ -1185,7 +1185,7 @@ h2 span:last-child {
   container {
     width: 1170px;
     margin: 0 auto;
-    border: 1px solid grey;
+   /* border: 1px solid grey;*/
     
   }
 
