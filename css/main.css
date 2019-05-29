@@ -24,6 +24,10 @@ body {
   flex-direction: column;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
+ /* background: #232427*/
+}
+section {
+  background: #fff;
 }
 
 .intro,
@@ -104,7 +108,8 @@ li {
 }
 
 header {
-  padding: 0 100px;
+  padding: 10px 100px;
+  background: white;
 }
 
 header .nav li:hover a {
@@ -120,6 +125,7 @@ header ul {
   -webkit-box-pack: end;
   -ms-flex-pack: end;
   justify-content: flex-end;
+  margin: 0;
 }
 
 .menu-mobile {
@@ -1172,5 +1178,36 @@ h2 span:last-child {
   .block {
     width: 110px;
     max-height: 110px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  container {
+    width: 1170px;
+    margin: 0 auto;
+    border: 1px solid grey;
+    
+  }
+
+ 
+}
+
+@media screen and (min-width: 1400px) {
+  container {
+    width: 1370px;
+    margin: 0 auto;
+  }
+}
+@media screen and (min-width: 1600px) {
+  container {
+    width: 1570px;
+    margin: 0 auto;
+    
+  }
+}
+@media screen and (min-width: 1900px) {
+  container {
+    width: 1870px;
+    margin: 0 auto;
   }
 }
